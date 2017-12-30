@@ -1,6 +1,6 @@
 # Games
 ### Part 1: Pichu
-###### Part of Prof D.J. Crandall's B-551/2017 Assignment 4
+###### Part of Prof D.J. Crandall's B-551/2017 Assignment 2
 ```
 Chess has been called the "drosophila of artificial intelligence," since it has long been a convenient yardstick
 by which to measure progress in AI (just as the fruit fly has been a relatively simple experimental "platform"
@@ -9,7 +9,7 @@ community of midwestern bird enthusiasts.
 
 The game is played by two players on a board consisting of a grid of 8 x 8 squares. Initially, each player
 has sixteen pieces: 8 Parakeets, 2 Robins, 2 Nighthawks, 2 Blue jays, 1 Quetzal, and 1 Kingfisher. The two
-players alternate turns, with White going rst. On each turn, a player moves exactly one of his or her pieces,
+players alternate turns, with White going first. On each turn, a player moves exactly one of his or her pieces,
 possibly capturing (removing) a piece of the opposite player in the process, according to the following rules:
   • A Parakeet may move one square forward, if no other piece is on that square. Or, a Parakeet may
     move one square forward diagonally (one square forward and one square left or right) if a piece of the
@@ -31,7 +31,7 @@ possibly capturing (removing) a piece of the opposite player in the process, acc
     backward. It may fly over any pieces on the way, but the destination square must either be empty or
     have a piece of the opposite player (which is then captured).
 
-A player wins by capturing the other player's Kingsher. (Note some of the dierences with traditional
+A player wins by capturing the other player's Kingfisher. (Note some of the differences with traditional
 Chess: there's no notion of check or checkmate, no en passant, and no castling.)
 
 Your task is to write a Python program that plays Pichu well. Use the minimax algorithm with alpha-beta
@@ -61,14 +61,14 @@ RNBQKBNRPP.PPPPP..........P.....................pppppppprnbqkbnr
 
 In your source code comments, explain your heuristic function and how you arrived at it.
 The tournament. To make things more interesting, we will hold a competition among all submitted solutions.
-We will not reveal ahead of time the time limit, but we plan to hold multiple tournaments with dierent
+We will not reveal ahead of time the time limit, but we plan to hold multiple tournaments with different
 values. While the majority of your grade will be on correctness, programming style, etc., a small portion may
 be based on how well your code performs in the tournaments, with particularly well-performing programs
 eligible for prizes including extra credit points.
 Note: Your code must conform with the interface standards mentioned above! The last line of the output
 must be the new board in the format given, without any extra characters or empty lines. Also, note that
 your program cannot assume that the game will be run in sequence from start to end; given a current board
-position on the command line, your code must nd a recommended next best move. Your program can write
+position on the command line, your code must find a recommended next best move. Your program can write
 files to disk to preserve state between runs, but should correctly handle the case when a new board state is
 presented to your program that is unrelated to the last state it saw.
 
