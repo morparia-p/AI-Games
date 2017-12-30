@@ -1,5 +1,6 @@
 # Games
 ### Part 1: Pichu
+###### Part of Prof D.J. Crandall's B-551/2017 Assignment 4
 ```
 Chess has been called the "drosophila of artificial intelligence," since it has long been a convenient yardstick
 by which to measure progress in AI (just as the fruit fly has been a relatively simple experimental "platform"
