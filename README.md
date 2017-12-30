@@ -115,7 +115,7 @@ use to arrive at them in your report.
 Hints: Don't worry, at least at first, about whether the \words" in your model are actually words. Just
 treat every unique space-delimited token you encounter as a \word," even if it's misspelled, a number, a
 punctuation mark, etc. It may be helpful to ignore tokens that do not occur more than a handful of times,
-however. To perform classication, you'll need to compute the posterior probability for each of the 12 cities
+however. To perform classification, you'll need to compute the posterior probability for each of the 12 cities
 and then choose the maximum. Note that this means you don't have to actually compute the prior on words,
 i.e. the denominator of Bayes Law, since it is the same across all 12 categories and is always positive (so
 that maximizing the numerator is the same as maximizing the full posterior).
