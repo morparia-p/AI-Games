@@ -1,7 +1,7 @@
 # Games
 ### Part 1: Pichu
 ###### Part of Prof D.J. Crandall's B-551/2017 Assignment 2
-```
+<p>
 Chess has been called the "drosophila of artificial intelligence," since it has long been a convenient yardstick
 by which to measure progress in AI (just as the fruit fly has been a relatively simple experimental "platform"
 for biology). Let's consider Pichu, a somewhat simplified version of Chess that is popular among a certain
@@ -138,4 +138,5 @@ lines do not count, but multi-line statements count for multiple lines, (3) must
 variable and function names, (4) no line may have more than 225 characters, (5) I/O, test code, etc. doesn't
 count, (6) assume the simplified Pichu rules above, and (7) no external data or program files may be loaded
 or used.
-```
+
+<p>
