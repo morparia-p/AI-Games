@@ -93,7 +93,7 @@ To help you get started, we've provided a dataset in your GitHub repo of tweets,
 geographic locations, split into a training set and a testing set. We've restricted to a set of a dozen North
 American cities (Chicago, Philadelphia, etc.), so your task is to classify each tweet into one of twelve dierent
 categories. Train your model on the training data and measure performance on the testing data in terms of
-accuracy (percentage of documents correctly classied).
+accuracy (percentage of documents correctly classified).
 
 Your program should accept command line arguments like this:
  
@@ -123,7 +123,7 @@ that maximizing the numerator is the same as maximizing the full posterior).
 Extra credit
 (Don't attempt unless you're completely happy with your submission for the rest of the assignment. This
 problem is mostly for fun. We want you to learn how to write clear, concise, easy-to-understand, easy-
-to-maintain code, whereas this problem encourages writing code that is hard to maintain and dicult to
+to-maintain code, whereas this problem encourages writing code that is hard to maintain and difficult to
 understand. But still, it may be fun :-).
 
 In a momentary lapse in common sense, during a recent lecture an otherwise mild-mannered professor of
