@@ -1,4 +1,4 @@
-# Games
+# AI Games
 ### Part 1: Pichu
 ###### Part of Prof D.J. Crandall's B-551/2017 Assignment 2
 <p>
